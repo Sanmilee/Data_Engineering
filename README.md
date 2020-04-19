@@ -5,12 +5,20 @@ Data Engineering standard practices of Extract - Transform - Load (ETL)
 
 ## Table of Contents
 1. [Project Motivation](###project-motivation)
-2. [Contents](###Contents)
-3. [Licensing, Authors, and Acknowledgements](###licensing,-authors,-and-acknowledgements)
+2. [Requirements](###requirements)
+3. [Contents](###Contents)
+4. [Licensing, Authors, and Acknowledgements](###licensing,-authors,-and-acknowledgements)
 
 
 ### Project Motivation
 For experimenting several data engineering practices used for preparing data from different sources into formats which are easily and readily available for descriptive and predictive analysis.
+
+
+### Requirements
+1. SQL
+2. Python3
+3. Pandas
+
 
 
 ###  Contents
