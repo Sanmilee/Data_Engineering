@@ -53,7 +53,7 @@ Requirements: 'python3', 'postgre', 'sql', 'pandas', 'numpy' and 'json' ..
 
 
 ### Licensing, Authors, Acknowledgements
-The Pagila posgre movie rental dataset is used for anaysis in this work. You can find the Licensing for the data and other descriptive information at the link available [here](https://www.postgresqltutorial.com/postgresql-sample-database/). Otherwise, feel free to use the code here as you would like!
+The Pagila posgre movie rental dataset is used for anaysis in this work. You can find the Licensing for the data and other descriptive information at the link available [here](https://www.postgresqltutorial.com/postgresql-sample-database/). Otherwise, feel free to use the code here as you would like.
 
 
 
