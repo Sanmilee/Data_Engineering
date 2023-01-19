@@ -1,0 +1,19 @@
+{
+    "image": "",
+    "cloud_run_instances" : {
+        "cr1": {
+              "name" : "cr-1",
+              "cr_name": "cr1"
+              },
+  
+        "cr2": {
+              "name" : "cr-2",
+              "cr_name": "cr2"
+              },
+  
+        "cr3": {
+              "name" : "cr-3",
+              "cr_name": "cr3"
+              }
+    }
+  }

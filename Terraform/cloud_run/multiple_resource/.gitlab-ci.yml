@@ -1,0 +1,45 @@
+stages:
+  - validate
+  - plan
+  - apply
+
+
+image:
+  name: hashicorp/terraform:light
+  entrypoint:
+    - '/usr/bin/env'
+
+
+before_script:
+  - export USERNAME_KEY=${}
+  - export SECRET_ACCESS_KEY=${}
+  - rm -rf .terraform
+  - terraform --version
+  - terraform init
+
+
+validate:
+  stage: validate
+  script:
+    - terraform validate
+
+
+plan:
+  stage: plan
+  script:
+    - terraform plan -out "planfile"
+  dependencies:
+    - validate
+  artifacts:
+    paths:
+      - planfile
+
+
+apply:
+  stage: apply
+  script:
+    - terraform apply -var-file=info.json -auto-approve
+  dependencies:
+    - plan
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
