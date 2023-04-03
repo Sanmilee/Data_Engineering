@@ -1,7 +1,9 @@
 # Data_Engineering
 Data Engineering standard practices of Extract - Transform - Load (ETL)
 
+Terraform is an open-source infrastructure-as-code (IAC) tool developed by HashiCorp. It allows developers to manage and provision infrastructure resources such as virtual machines, networks, and storage using code.
 
+***
 
 ## Table of Contents
 1. [Project Motivation](###project-motivation)
