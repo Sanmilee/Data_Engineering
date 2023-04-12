@@ -1,6 +1,10 @@
 # Data_Engineering
 Data Engineering standard practices of Extract - Transform - Load (ETL)
 
+A data warehouse is a large and centralized repository of data that is used for storing and managing an organization's data from various sources. The purpose of a data warehouse is to provide a single source of truth for all data in an organization, allowing for easy analysis and reporting.
+
+
+***
 Terraform is an open-source infrastructure-as-code (IAC) tool developed by HashiCorp. It allows developers to manage and provision infrastructure resources such as virtual machines, networks, and storage using code.
 
 Terraform uses a declarative language to define the desired state of infrastructure resources, allowing developers to easily create, modify, and destroy infrastructure resources using version-controlled configuration files. This enables teams to automate infrastructure provisioning and ensure consistency across environments.
